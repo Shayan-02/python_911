@@ -1,0 +1,12 @@
+l1 = [1, "ali", "mohammadi", 18, 1234567890, "0987654321"]
+l1.append(18.5)
+l1.insert(3, "reza")
+l1.pop()
+l1.pop(2)
+l1.remove("reza")
+l2 = l1.copy()
+print("l1: ", l1)
+print("l2: ", l2)
+l1.clear()
+print("l1: ", l1)
+print("l2: ", l2)
